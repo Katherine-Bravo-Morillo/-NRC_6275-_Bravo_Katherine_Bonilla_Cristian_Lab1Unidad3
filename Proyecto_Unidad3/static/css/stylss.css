@@ -1,0 +1,229 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .boton_agregar{
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #5174525b;
+    border-radius: 6px;
+    border: 2px solid #9bc4c0;
+    top: 210px;
+  }
+
+  .boton_leer{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ba18b2;
+    border-radius: 6px;
+    border: 2px solid #7b00b0;
+    margin: 2px;
+  }
+  .boton_editar{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #b218ba;
+    border-radius: 6px;
+    border: 2px solid #7e00b0;
+    margin: 2px;
+  }
+  .boton_eliminar {
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ba1884;
+    border-radius: 6px;
+    border: 2px solid #6f00b0;
+    margin: 2px;
+  }
+
+  .tittle-clientes{
+      color: #ba1871;
+      margin: 10px;
+  }
+
+  
+  *{box-sizing:border-box;}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#1883ba;
+    color: #ffffff;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+    
+}
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid rgb(3, 0, 3);
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+.btn-cancelar{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ba188f;
+    border-radius: 6px;
+    border: 2px solid #6100b0;
+    margin: 2px;
+    margin-top: -50px;
+}
+
+.btn-cancelar:hover{
+    cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+.formulario{
+  background-color: lightblue;
+  height: 220px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px;
+  margin-top: 10%;
+  box-shadow: 2px 2px 10px rgb(59, 57, 57);
+}
+
+.contenido{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boton{
+  width: 80%;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  background: lightseagreen;
+  color: white;
+}
+
+.boton:hover{
+  transform: scale(1.1);
+ border: none;
+}
+
+
+.label{
+  padding: 5px;
+  font-size: 18px;
+}
+
+.textFiel{
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  width: 130px;
+}
+
+.contenidoDatos{
+  height: 500px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.MostrarC, tr, td{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.foto{
+  height: 120px;
+}
+
+.botonC{
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  border-radius: 1px;
+  color:white;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: rgb(246, 62, 179); 
+}
+th { 
+  background: rgb(250, 69, 250); 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid rgb(202, 102, 248); 
+  text-align: left; 
+}
